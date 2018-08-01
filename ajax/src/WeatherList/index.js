@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 const WeatherList = (props) => {
-	const weatherList = props.weather.map((weather, i) => {
-		return <li key={i}>{weather.weather}</li>
-		console.log(weather.weather)
-	})
+	const weatherList = props.weather.coord;
+	// 	console.log(weather.weather)
+
+	// })
 	
 	return (
 		<div>
