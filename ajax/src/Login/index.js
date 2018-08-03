@@ -21,8 +21,8 @@ class Login extends Component {
   render() {
   	console.log(this.state, ' this state')
     return (
-      <div className="App">
-       <h1> Strom Tracker </h1>
+      <div class="App">
+       <h1> Storm Tracker </h1>
 
       <form onSubmit={this.handleSubmit}>
 				<input type="text" name="username" placeholder="username" value={this.state.username} onChange={this.handleChange}/>
